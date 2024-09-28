@@ -5,12 +5,8 @@ const Features = () => {
     <div className='flex flex-col items-start'>
         <h2 className="text-4xl font-bold mb-4">👋 Features</h2>
         <div className="divider w-2/6"></div>
-        <p className='w-2/5 text-left text-lg text-white'>
-        <span className='font-bold'>Welcome to Coding Soul</span> - your go-to Discord community for programmers of all levels! Whether you're just starting out or already an expert, our community offers a supportive environment where you can learn, share, and grow together.
-        At Coding Soul, we believe in the power of collaboration and creativity. Here, you'll find channels dedicated to various programming languages, frameworks, and development tools. From Java and Rust to web development and machine learning, there's always something exciting to explore.
-        Our members frequently share resources, troubleshoot issues, and participate in big discussions. Plus, we host regular events, such as live coding sessions, giveaways, and mini-hackathons.
-        If you're passionate about coding and want to be part of a welcoming and motivated community, Coding Soul is the place for you. Join us today, make new connections, and fuel your passion for coding!
-        </p>
+        <p className='pl-6 w-5/12 text-left text-lg text-white'>
+        <span className='font-bold'>Welcome to Coding Soul</span> - a vibrant Discord community for programmers of all levels! Whether you're a beginner or expert, you'll find support, collaboration, and creativity here. With channels for various programming languages, frameworks, and tools—like Java, Rust, web development, and machine learning—you'll always have something to explore. Our community shares resources, solves problems, and engages in discussions. Join us for live coding, giveaways, and hackathons, and connect with passionate coders ready to grow together!</p>
     </div>
   )
 }
