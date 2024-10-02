@@ -1,6 +1,8 @@
 import Heading from './components/Heading';
 import Features from './components/Features';
 import Navbar from './components/Navbar';
+import Team from './components/Team';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -26,6 +28,19 @@ function App() {
       <section id='features' className="bg-gray-900 pb-20">
         <div className="container mx-auto text-center">
           <Features />
+        </div>
+      </section>
+
+      <section id='team' className='flex flex-col bg-gray-900 items-start pb-32'>
+        <div className='container mx-auto'>
+        <Team />
+        </div>
+      </section>
+
+
+      <section id='projects' className='flex flex-col bg-gray-900 items-start'>
+        <div className='container mx-auto'>
+        <Projects />
         </div>
       </section>
     </div>
