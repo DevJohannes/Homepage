@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="flex-1">
             <a className="btn btn-ghost text-xl text-white font-bold">Coding Soul</a>
         </div>
-        <div className="flex-none text-white font-semibold">
+        <div className="flex-none text-white font-semibold min-[320px]:hidden md:block">
             <ul className="menu menu-horizontal px-1">
             <li><a className='text-lg' href='#features'>Features</a></li>
             <li><a className='text-lg' href='#team'>Team</a></li>

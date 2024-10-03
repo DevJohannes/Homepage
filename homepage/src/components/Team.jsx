@@ -13,7 +13,7 @@ const Team = () => {
         </div>
         
 
-        <div className='flex'>
+        <div className='flex min-[320px]:flex-col md:flex-row items-center'>
           <TeamMember 
           username='JohannesDev'
           rank='Administrator'
