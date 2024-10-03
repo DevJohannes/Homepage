@@ -41,6 +41,7 @@ function App() {
 
       <section id='projects' className='flex flex-col bg-gray-900 items-start'>
         <div className='container mx-auto'>
+          <Projects />
         </div>
       </section>
       <section id='footer'>
