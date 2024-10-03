@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div className='flex flex-col pt-16'>
         <div>
-            <h1 className='text-4xl font-bold'>🤝 Our Team</h1>
+            <h1 className='text-4xl font-bold min-[320px]:max-md:mb-4'>🤝 Our Team</h1>
         </div>
         <div>
             <div className="divider w-2/6 min-[320px]:max-sm:hidden"></div>

@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div>
         <div>
-          <h1 className='text-4xl font-bold'>🌍 Our Projects</h1>
+          <h1 className='text-4xl font-bold min-[320px]:max-md:mb-5'>🌍 Our Projects</h1>
           <div className="divider w-2/6 min-[320px]:max-sm:hidden"></div>
           <div className='flex min-[320px]:max-sm:flex-col md:flex-wrap'>
             <Project image='home' url='https://discord.gg/tApBS2QNMj' title='Discord Coding Community' description='A place where developers meet, learn, discover and more...'/>
