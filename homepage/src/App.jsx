@@ -3,6 +3,7 @@ import Features from './components/Features';
 import Navbar from './components/Navbar';
 import Team from './components/Team';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
       <section id='projects' className='flex flex-col bg-gray-900 items-start'>
         <div className='container mx-auto'>
         </div>
+      </section>
+      <section id='footer'>
+        <Footer />
       </section>
     </div>
   );
