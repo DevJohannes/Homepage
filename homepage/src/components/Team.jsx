@@ -9,7 +9,7 @@ const Team = () => {
             <h1 className='text-4xl font-bold'>🤝 Our Team</h1>
         </div>
         <div>
-            <div className="divider w-2/6"></div>
+            <div className="divider w-2/6 min-[320px]:max-sm:hidden"></div>
         </div>
         
 
