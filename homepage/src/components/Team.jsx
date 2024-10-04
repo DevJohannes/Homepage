@@ -24,6 +24,14 @@ const Team = () => {
           rank='Administrator'
           profile_picture_url='https://cdn.discordapp.com/avatars/652019278203060224/f0400ce017c32b0195ebe6aa195944a1.png?size=256'
           ></TeamMember>
+          <TeamMember 
+          username='zGamerZz'
+          rank='Developer'
+          profile_picture_url='https://cdn.discordapp.com/avatars/951119383508434964/1a307a92bb4013761918ed61e150277b.png?size=256'
+          ></TeamMember>
+          
+
+          
         </div>
         
     </div>
