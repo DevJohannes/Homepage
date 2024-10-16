@@ -10,6 +10,7 @@ import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <div className="relative">
+      <Analytics/>
       <div className="relative bg-gradient-to-b from-gray-900 to-indigo-800 h-screen flex flex-col justify-center items-center">
         <Navbar></Navbar>
         <Heading />
