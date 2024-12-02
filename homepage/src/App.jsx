@@ -46,6 +46,7 @@ function App() {
           <Projects />
         </div>
       </section>
+      
       <section id='footer'>
         <Footer />
       </section>
